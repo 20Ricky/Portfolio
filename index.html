@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricky Choudhary | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fas fa-code"></i>
+      Ricky Choudhary
+    </div>
+
+    <!-- Checkbox for Hamburger -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="nav-links">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm <span class="highlight">Ricky Choudhary</span></h1>
+      <p class="hero-subtitle">Engineering Student | Tech Explorer | Creative Builder</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a passionate engineering student with a keen interest in software development, emerging technologies, and innovative problem-solving. With hands-on experience in full-stack development and Data Science, I thrive on turning ideas into functional applications that make a difference.</p>
+          <p>Outside of coding, I enjoy exploring new tools and staying ahead of the curve in AI and web technologies.</p>
+          <div class="about-actions">
+            <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="Ricky Choudhary Profile" class="profile-pic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <i class="fas fa-html5"></i>
+          <h3>HTML/CSS</h3>
+          <p>Proficient in modern web standards</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-js-square"></i>
+          <h3>JavaScript</h3>
+          <p>Dynamic and interactive experiences</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Building scalable UIs</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database"></i>
+          <h3>Databases</h3>
+          <p>PostgrSQL expertise</p>
+        </div>
+        <div class="skill-item">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>Backend development & Data Science</p>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-robot"></i>
+          <h3>Machine Learning</h3>
+          <p>Extracting meaningful information and designing prediction workflows.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3>Portfolio Website</h3>
+          <p>A responsive personal portfolio built with HTML, CSS, and JavaScript, showcasing modern design principles.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-small"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-dragon"></i>
+          </div>
+          <h3>PokeSee</h3>
+          <p>An engaging, interactive website that allows users to search for Pokémon, compare their stats, and save their favorites to a personalized list.</p>
+          <div class="project-links">
+              <a href="https://github.com/20Ricky/PokeSee" 
+              class="btn btn-small" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="View GitHub repository">
+              <i class="fab fa-github"></i> Code
+              </a>
+            
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <i class="fas fa-clipboard"></i>
+          </div>
+          <h3>CRUD To_Do</h3>
+          <p>A full-featured To-Do List web application built with FastAPI, allowing users to create, read, update, and delete tasks efficiently.</p>
+          <div class="project-links">
+            <a href="https://github.com/20Ricky/To_Do_FastAPI-React" 
+              class="btn btn-small" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="View GitHub repository for To-Do FastAPI React project">
+              <i class="fab fa-github"></i> Code
+            </a>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="contact-subtitle">Let's connect and discuss potential collaborations or opportunities.</p>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>rickychoudhary391@gmail.com</p>
+          </div>
+          <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/ricky-chaudhary-24a39930a/" target="_blank" rel="noopener noreferrer">
+            linkedin
+          </a>
+        </div>  
+
+       <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/20Ricky" target="_blank" rel="noopener noreferrer">
+              github.com/20Ricky
+            </a>
+      </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Ricky Choudhary. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
